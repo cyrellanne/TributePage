@@ -1,0 +1,115 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  border-radius: 1%;
+}
+body{
+  background-image: url(backg2.jpeg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Century Gothic;
+  font-size: 32pt;
+  margin-bottom: -5px;
+  color: #e5e5e5;
+}
+
+h3 {
+  font-family: Century Gothic;
+  font-weight: 300;
+  font-size: 14pt;
+  color: #e5e5e5;
+}
+
+p,
+li,
+span {
+  font-family: Century Gothic;
+  font-size: 12pt;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+label {
+  font-family: Century Gothic;
+  font-size: 9pt;
+  font-weight: 100;
+}
+
+blockquote {
+  font-family: lato;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12pt;
+  line-height: 1.5em;
+  margin: 10px 0px;
+  text-align: center;
+  align-items: center;
+}
+
+strong {
+  text-transform: uppercase;
+}
+div#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+div#img-div {
+  background-color: white;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#image {
+  min-width: 200px;
+  max-width: 85%;
+  background-color: transparent;
+}
+
+.captions {
+  font-family: Century Gothic;
+  font-size: 10pt;
+  margin: 10px 0px;
+}
+#tribute-info {
+  margin:0 auto;
+  }
+
+div#list-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  align-items: flex-start;
+  }
+@media only screen and (max-width: 600px) {
+  div#list-container {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
+}
+  
+  ul#tribute-list {
+  padding: 15px;
+  }
+  
+  ul#tribute-list > li {
+    line-height: 1.75em;
+  }
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center
+}
